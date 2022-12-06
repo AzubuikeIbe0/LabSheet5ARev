@@ -6,6 +6,8 @@ using namespace std;
 
 class ListOfints
 {
+	friend class NodeOfInts;
+
 private:
 	NodeOfInts* head;
 
